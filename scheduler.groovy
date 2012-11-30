@@ -3,6 +3,7 @@
 // for PLU's CSCE 343 - Fall 2012
 // Language Project - Part 2
 
+// This project is hosted online at https://github.com/Pengor/groovy_scheduling
 
 //-- File Reading and Saving --//
 
