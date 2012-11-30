@@ -50,7 +50,7 @@ new File("BannerCourses.html").eachLine {line ->
             else if(numcount == 6){
                 matcher4  = line =~ regEx11
                 if(matcher4.find()){
-                    crn= matcher4.group().toString().substring(1, 5)
+                    crn= matcher4.group().toString().substring(1, 6)
                 }
                 needed = false
             }
