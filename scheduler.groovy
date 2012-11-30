@@ -40,7 +40,7 @@ new File("BannerCourses.html").eachLine {line ->
 			else if(numcount == 6){
 				matcher4  = line =~ regEx11
 				if(matcher4.find()){
-					crn= matcher4.group().toString().substring(1, 5)
+					crn= matcher4.group().toString().substring(1, 6)
 				}
 				needed = false
 			}
@@ -51,7 +51,7 @@ new File("BannerCourses.html").eachLine {line ->
 		catalog.put(crn, classes)
 		classes =[]
 		}
-//catalog.each{ k, v -> println "${k}:${v}" } Prints out the map key and items
+//catalog.each{ k, v -> println "${k}:${v}" } //Prints out the map key and items
 }
 //-- Schedule Data Structure --//
 
